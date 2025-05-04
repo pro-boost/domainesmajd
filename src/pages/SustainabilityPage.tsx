@@ -9,7 +9,7 @@ const SustainabilityPage: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 bg-avocado-800 text-white">
+      <section className="relative h-[400px] flex items-center bg-avocado-800 text-white">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{ 

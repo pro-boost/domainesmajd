@@ -6,11 +6,12 @@ import ContactForm from '../components/contact/ContactForm';
 
 const ContactPage: React.FC = () => {
   const { t } = useTranslation();
+  const companyAddress = "Mohammed V Office Center -Imm B Etage 6, Angle Rue Ait Ba Amrane Et، Rue Mohamed V, Casablanca 20000";
 
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 bg-charcoal-900 text-white">
+      <section className="relative h-[400px] flex items-center bg-charcoal-900 text-white">
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{ 
@@ -45,10 +46,7 @@ const ContactPage: React.FC = () => {
                       {t('contact.info.address')}
                     </h3>
                     <p className="text-charcoal-600 dark:text-cream-300">
-                      {t('contact.info.addressLine1')}
-                    </p>
-                    <p className="text-charcoal-600 dark:text-cream-300">
-                      {t('contact.info.addressLine2')}
+                      {companyAddress}
                     </p>
                   </div>
                 </div>
@@ -127,16 +125,15 @@ const ContactPage: React.FC = () => {
           
           <div className="bg-white dark:bg-charcoal-800 rounded-lg shadow-lg overflow-hidden h-96">
             <iframe
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-7.602117484759247%2C33.59206076370235%2C-7.597717484759247%2C33.59606076370235&amp;layer=mapnik&amp;marker=33.594060763702345%2C-7.599928815542162"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.438789594995!2d-7.60261102450399!3d33.59391777333308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cd65a3c170c9%3A0xda2aa53cae99dc39!2sprime%20zone%20systemes!5e0!3m2!1sen!2sma!4v1746333624129!5m2!1sen!2sma"
               width="100%"
               height="100%"
-              frameBorder="0"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="DomainesMajd Location"
-              className="grayscale hover:grayscale-0 transition-all duration-300 w-full h-full"
+              className="w-full h-full"
             />
           </div>
         </div>

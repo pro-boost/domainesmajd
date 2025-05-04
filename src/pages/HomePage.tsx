@@ -390,7 +390,7 @@ const HomePage: React.FC = () => {
               {t('cta.quote')}
             </button>
             <a 
-              href="https://wa.me/212522123456" 
+              href="https://wa.me/212661725581" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn bg-terracotta-700 hover:bg-terracotta-800 text-white"

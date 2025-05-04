@@ -35,36 +35,12 @@ const Header: React.FC<HeaderProps> = ({ openContactModal }) => {
   useEffect(() => {
     if (isMenuOpen) {
       document.body.style.overflow = 'hidden';
-      document.body.style.position = 'fixed';
-      document.body.style.width = '100%';
-      document.body.style.top = `-${window.scrollY}px`;
     } else {
-      const scrollY = document.body.style.top;
       document.body.style.overflow = '';
-      document.body.style.position = '';
-      document.body.style.width = '';
-      document.body.style.top = '';
-      window.scrollTo(0, parseInt(scrollY || '0') * -1);
     }
     return () => {
       document.body.style.overflow = '';
-      document.body.style.position = '';
-      document.body.style.width = '';
-      document.body.style.top = '';
     };
-  }, [isMenuOpen]);
-
-  // Close menu when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      if (isMenuOpen && !target.closest('.mobile-menu') && !target.closest('.menu-button')) {
-        setIsMenuOpen(false);
-      }
-    };
-
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [isMenuOpen]);
 
   return (
@@ -154,63 +130,63 @@ const Header: React.FC<HeaderProps> = ({ openContactModal }) => {
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden p-2 text-charcoal-700 dark:text-cream-100 menu-button z-50"
+          className="md:hidden fixed top-5 right-4 z-[100] p-2 bg-white dark:bg-charcoal-900 rounded-lg shadow-lg"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          <div className="relative w-6 h-6">
+            <span className={`absolute left-0 block w-full h-0.5 bg-current transform transition-all duration-300 ease-in-out ${
+              isMenuOpen ? 'rotate-45 top-3' : 'top-1'
+            }`} />
+            <span className={`absolute left-0 block w-full h-0.5 bg-current transform transition-all duration-300 ease-in-out ${
+              isMenuOpen ? 'opacity-0' : 'top-3'
+            }`} />
+            <span className={`absolute left-0 block w-full h-0.5 bg-current transform transition-all duration-300 ease-in-out ${
+              isMenuOpen ? '-rotate-45 top-3' : 'top-5'
+            }`} />
+          </div>
         </button>
       </div>
 
       {/* Mobile Navigation */}
       <div 
-        className={`md:hidden fixed inset-0 bg-white/95 dark:bg-charcoal-900/95 backdrop-blur-sm z-40 transition-all duration-300 ease-in-out mobile-menu ${
-          isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+        className={`fixed top-0 left-0 w-screen h-screen bg-white dark:bg-charcoal-900 z-[90] transition-transform duration-500 ease-in-out ${
+          isMenuOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
       >
-        <div className="container-custom h-full flex flex-col justify-center">
+        <div className="w-full h-full flex flex-col justify-center items-center p-4">
           <nav className="flex flex-col items-center space-y-8">
-            <Link 
-              to="/"
-              onClick={() => setIsMenuOpen(false)}
-              className="text-2xl font-medium text-charcoal-800 dark:text-cream-50 hover:text-avocado-600 dark:hover:text-avocado-400 transition-colors"
-            >
-              {t('navigation.home')}
-            </Link>
-            <Link 
-              to="/about"
-              onClick={() => setIsMenuOpen(false)}
-              className="text-2xl font-medium text-charcoal-800 dark:text-cream-50 hover:text-avocado-600 dark:hover:text-avocado-400 transition-colors"
-            >
-              {t('navigation.about')}
-            </Link>
-            <Link 
-              to="/products"
-              onClick={() => setIsMenuOpen(false)}
-              className="text-2xl font-medium text-charcoal-800 dark:text-cream-50 hover:text-avocado-600 dark:hover:text-avocado-400 transition-colors"
-            >
-              {t('navigation.products')}
-            </Link>
-            <Link 
-              to="/sustainability"
-              onClick={() => setIsMenuOpen(false)}
-              className="text-2xl font-medium text-charcoal-800 dark:text-cream-50 hover:text-avocado-600 dark:hover:text-avocado-400 transition-colors"
-            >
-              {t('navigation.sustainability')}
-            </Link>
-            <Link 
-              to="/contact"
-              onClick={() => setIsMenuOpen(false)}
-              className="text-2xl font-medium text-charcoal-800 dark:text-cream-50 hover:text-avocado-600 dark:hover:text-avocado-400 transition-colors"
-            >
-              {t('navigation.contact')}
-            </Link>
+            {[
+              { to: '/', label: 'navigation.home' },
+              { to: '/about', label: 'navigation.about' },
+              { to: '/products', label: 'navigation.products' },
+              { to: '/sustainability', label: 'navigation.sustainability' },
+              { to: '/contact', label: 'navigation.contact' }
+            ].map((item, index) => (
+              <Link 
+                key={item.to}
+                to={item.to}
+                onClick={() => setIsMenuOpen(false)}
+                className={`text-2xl font-medium text-charcoal-800 dark:text-cream-50 hover:text-avocado-600 dark:hover:text-avocado-400 transition-all duration-300 transform ${
+                  isMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-8 opacity-0'
+                }`}
+                style={{ transitionDelay: `${index * 100}ms` }}
+              >
+                {t(item.label)}
+              </Link>
+            ))}
           </nav>
 
           <div className="mt-12 flex flex-col items-center space-y-8">
-            <LanguageSwitcher isMobile />
+            <div className={`transform transition-all duration-300 ${
+              isMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-8 opacity-0'
+            }`} style={{ transitionDelay: '500ms' }}>
+              <LanguageSwitcher isMobile />
+            </div>
             
-            <div className="flex items-center justify-center p-4">
+            <div className={`transform transition-all duration-300 ${
+              isMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-8 opacity-0'
+            }`} style={{ transitionDelay: '600ms' }}>
               <button 
                 onClick={toggleTheme}
                 className="p-2 rounded-full hover:bg-cream-100 dark:hover:bg-charcoal-800 flex items-center gap-2"
@@ -238,7 +214,10 @@ const Header: React.FC<HeaderProps> = ({ openContactModal }) => {
                 setIsMenuOpen(false);
                 openContactModal();
               }}
-              className="btn btn-primary w-64"
+              className={`btn btn-primary w-64 transform transition-all duration-300 ${
+                isMenuOpen ? 'translate-x-0 opacity-100' : 'translate-x-8 opacity-0'
+              }`}
+              style={{ transitionDelay: '700ms' }}
             >
               {t('cta.quote')}
             </button>

@@ -1,8 +1,8 @@
 {
-  "siteTitle": "AvoCasa - Avocats Premium du Maroc",
+  "siteTitle": "DomainesMajd - Avocats Premium du Maroc",
   "languages": {
     "english": "Anglais",
-    "french": "Français",
+    "french": "Français", 
     "spanish": "Espagnol",
     "select": "Sélectionner la langue",
     "toggle": "Changer de langue"
@@ -10,7 +10,7 @@
   "navigation": {
     "home": "Accueil",
     "about": "À Propos",
-    "products": "Produits",
+    "products": "Produits", 
     "sustainability": "Durabilité",
     "contact": "Contact"
   },
@@ -24,15 +24,15 @@
     "cta": "Demander un Devis"
   },
   "about": {
-    "title": "À Propos d'AvoCasa",
+    "title": "À Propos de DomainesMajd",
     "subtitle": "Premier Producteur d'Avocats du Maroc",
-    "intro": "Fondée en 2010, AvoCasa allie la sagesse agricole traditionnelle marocaine aux pratiques durables modernes pour produire les meilleurs avocats de la région.",
+    "intro": "Fondée en 2010, DomainesMajd allie la sagesse agricole traditionnelle marocaine aux pratiques durables modernes pour produire les meilleurs avocats de la région.",
     "description": "Située dans la fertile région du Souss-Massa, nos vergers bénéficient du climat unique du Maroc et de son sol riche, produisant des avocats à la saveur et à la texture exceptionnelles, très demandés sur les marchés européens et mondiaux.",
     "history": {
       "title": "Notre Histoire",
       "content": "En commençant avec seulement 50 hectares dans les contreforts fertiles de l'Atlas, nous sommes devenus le principal exportateur d'avocats du Maroc, desservant les marchés premium du monde entier.",
       "foundation": "Fondation",
-      "foundationText": "AvoCasa a été fondée avec la vision de produire des avocats premium tout en respectant les pratiques agricoles traditionnelles marocaines et en mettant en œuvre des méthodes d'agriculture durable. Débutant avec seulement 50 hectares dans les contreforts de l'Atlas.",
+      "foundationText": "DomainesMajd a été fondée avec la vision de produire des avocats premium tout en respectant les pratiques agricoles traditionnelles marocaines et en mettant en œuvre des méthodes d'agriculture durable. Débutant avec seulement 50 hectares dans les contreforts de l'Atlas.",
       "exports": "Premières Exportations",
       "exportsText": "Après avoir établi une production de qualité constante, nous avons commencé à exporter vers les marchés européens, acquérant rapidement une réputation pour nos avocats exceptionnels alliant qualité et pratiques durables. Nos premières expéditions vers la France et l'Espagne ont marqué le début de notre voyage mondial.",
       "certification": "Certification & Expansion",
@@ -168,7 +168,7 @@
   },
   "sustainability": {
     "title": "Notre Engagement envers la Durabilité",
-    "intro": "La durabilité n'est pas qu'une pratique chez AvoCasa — c'est notre promesse envers l'environnement, nos communautés et les générations futures.",
+    "intro": "La durabilité n'est pas qu'une pratique chez DomainesMajd — c'est notre promesse envers l'environnement, nos communautés et les générations futures.",
     "waterManagement": {
       "title": "Gestion de l'Eau",
       "content": "Nos systèmes d'irrigation goutte à goutte réduisent l'utilisation d'eau de 60% par rapport aux méthodes traditionnelles, tandis que la collecte des eaux de pluie nous aide à minimiser notre empreinte environnementale."
@@ -286,9 +286,9 @@
     "join": "Rejoignez notre réseau mondial de partenaires satisfaits et apportez le goût authentique des avocats marocains à vos clients."
   },
   "footer": {
-    "description": "AvoCasa est le premier producteur et exportateur marocain d'avocats de haute qualité, engagé dans une agriculture durable et une qualité de produit exceptionnelle.",
+    "description": "DomainesMajd est le premier producteur et exportateur marocain d'avocats de haute qualité, engagé dans une agriculture durable et une qualité de produit exceptionnelle.",
     "links": "Liens Rapides",
     "certifications": "Certifications",
-    "copyright": "© 2025 AvoCasa. Tous droits réservés."
+    "copyright": "© 2025 DomainesMajd. Tous droits réservés."
   }
 }

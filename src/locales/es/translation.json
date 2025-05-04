@@ -1,5 +1,5 @@
 {
-  "siteTitle": "AvoCasa - Aguacates Premium de Marruecos",
+  "siteTitle": "DomainesMajd - Aguacates Premium de Marruecos",
   "languages": {
     "english": "Inglés",
     "french": "Francés",
@@ -24,15 +24,15 @@
     "cta": "Solicitar Cotización"
   },
   "about": {
-    "title": "Sobre AvoCasa",
+    "title": "Sobre DomainesMajd",
     "subtitle": "Principal Productor de Aguacates de Marruecos",
-    "intro": "Fundada en 2010, AvoCasa combina la sabiduría agrícola tradicional marroquí con prácticas sostenibles modernas para producir los mejores aguacates de la región.",
+    "intro": "Fundada en 2010, DomainesMajd combina la sabiduría agrícola tradicional marroquí con prácticas sostenibles modernas para producir los mejores aguacates de la región.",
     "description": "Ubicada en la fértil región de Souss-Massa, nuestros huertos se benefician del clima único de Marruecos y su rico suelo, produciendo aguacates con un sabor y textura excepcionales que tienen una gran demanda en los mercados europeos y globales.",
     "history": {
       "title": "Nuestra Historia",
       "content": "Comenzando con solo 50 hectáreas en las fértiles estribaciones del Atlas, nos hemos convertido en el principal exportador de aguacates de Marruecos, abasteciendo a mercados premium en todo el mundo.",
       "foundation": "Fundación",
-      "foundationText": "AvoCasa fue fundada con la visión de producir aguacates premium mientras respetamos las prácticas agrícolas tradicionales marroquíes e implementamos métodos de agricultura sostenible. Comenzando con solo 50 hectáreas en las estribaciones del Atlas.",
+      "foundationText": "DomainesMajd fue fundada con la visión de producir aguacates premium mientras respetamos las prácticas agrícolas tradicionales marroquíes e implementamos métodos de agricultura sostenible. Comenzando con solo 50 hectáreas en las estribaciones del Atlas.",
       "exports": "Primeras Exportaciones",
       "exportsText": "Después de establecer una producción de calidad consistente, comenzamos a exportar a mercados europeos, ganando rápidamente una reputación por nuestros aguacates excepcionales que combinaban calidad con prácticas sostenibles. Nuestros primeros envíos a Francia y España marcaron el comienzo de nuestro viaje global.",
       "certification": "Certificación y Expansión",
@@ -55,7 +55,7 @@
       "title": "Nuestro Liderazgo",
       "description": "Nuestro experimentado equipo combina la sabiduría agrícola tradicional con la experiencia moderna para producir los mejores aguacates de Marruecos.",
       "ceo": "Fundador y CEO",
-      "ceoDescription": "Con más de 25 años de experiencia agrícola, Hassan combina la sabiduría agrícola tradicional con prácticas innovadoras.",
+      "ceoDescription": "Con más de 25 años de experiencia agrícola, Hassan combina la sabiduría agrícola tradicional con prácticas innovantes.",
       "operations": "Directora de Operaciones de Exportación",
       "operationsDescription": "Laila asegura que nuestros aguacates lleguen a los mercados globales en perfectas condiciones mientras gestiona nuestra red logística.",
       "agricultural": "Director Agrícola",
@@ -177,7 +177,7 @@
   },
   "sustainability": {
     "title": "Nuestro Compromiso con la Sostenibilidad",
-    "intro": "La sostenibilidad no es solo una práctica en AvoCasa — es nuestra promesa con el medio ambiente, nuestras comunidades y las generaciones futuras.",
+    "intro": "La sostenibilidad no es solo una práctica en DomainesMajd — es nuestra promesa con el medio ambiente, nuestras comunidades y las generaciones futuras.",
     "waterManagement": {
       "title": "Gestión del Agua",
       "content": "Nuestros sistemas de riego por goteo reducen el uso de agua en un 60% en comparación con los métodos tradicionales, mientras que la recolección de agua de lluvia nos ayuda a minimizar nuestra huella ambiental."
@@ -295,9 +295,9 @@
     "join": "Únase a nuestra red global de socios satisfechos y lleve el rico sabor de los aguacates marroquíes a sus clientes."
   },
   "footer": {
-    "description": "AvoCasa es el principal productor y exportador de aguacates de alta calidad de Marruecos, comprometido con la agricultura sostenible y la calidad excepcional del producto.",
+    "description": "DomainesMajd es el principal productor y exportador de aguacates de alta calidad de Marruecos, comprometido con la agricultura sostenible y la calidad excepcional del producto.",
     "links": "Enlaces Rápidos",
     "certifications": "Certificaciones",
-    "copyright": "© 2025 AvoCasa. Todos los derechos reservados."
+    "copyright": "© 2025 DomainesMajd. Todos los derechos reservados."
   }
 }

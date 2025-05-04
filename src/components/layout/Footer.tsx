@@ -123,13 +123,13 @@ const Footer: React.FC = () => {
               <li className="flex gap-3">
                 <MapPin size={20} className="text-avocado-400 flex-shrink-0" />
                 <div>
-                  <p className="text-cream-300">{t('contact.info.addressLine1')}</p>
-                  <p className="text-cream-300">{t('contact.info.addressLine2')}</p>
+                  <p className="text-cream-300">Mohammed V Office Center -Imm B Etage 6,</p>
+                  <p className="text-cream-300">Angle Rue Ait Ba Amrane Et، Rue Mohamed V, Casablanca 20000</p>
                 </div>
               </li>
               <li className="flex gap-3">
                 <Phone size={20} className="text-avocado-400 flex-shrink-0" />
-                <p className="text-cream-300">+212 522 123 456</p>
+                <p className="text-cream-300">+212 661 725 581</p>
               </li>
               <li className="flex gap-3">
                 <Mail size={20} className="text-avocado-400 flex-shrink-0" />
