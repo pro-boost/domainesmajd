@@ -1,0 +1,307 @@
+{
+  "siteTitle": "DomainesMajd - Premium Moroccan Avocados",
+  "languages": {
+    "english": "English",
+    "french": "French",
+    "spanish": "Spanish",
+    "select": "Select Language",
+    "toggle": "Toggle language selection"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "sustainability": "Sustainability",
+    "contact": "Contact"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode"
+  },
+  "hero": {
+    "title": "Premium Moroccan Avocados",
+    "subtitle": "Sustainably Grown, Globally Loved",
+    "cta": "Request a Quote"
+  },
+  "about": {
+    "title": "About DomainesMajd",
+    "subtitle": "Morocco's Premier Avocado Producer",
+    "intro": "Founded in 2010, DomainesMajd combines traditional Moroccan farming wisdom with modern sustainable practices to produce the finest avocados in the region.",
+    "description": "Located in the fertile region of Souss-Massa, our orchards benefit from Morocco's unique climate and rich soil, producing avocados with exceptional flavor and texture that are in high demand across European and global markets.",
+    "history": {
+      "title": "Our History",
+      "content": "Starting with just 50 hectares in the fertile Atlas foothills, we've grown to become Morocco's leading avocado exporter, serving premium markets worldwide.",
+      "foundation": "Foundation",
+      "foundationText": "DomainesMajd was founded with a vision to produce premium avocados while respecting traditional Moroccan agricultural practices and implementing sustainable farming methods. Starting with just 50 hectares in the foothills of the Atlas Mountains.",
+      "exports": "First Exports",
+      "exportsText": "After establishing consistent quality production, we began exporting to European markets, quickly gaining a reputation for exceptional avocados that combined quality with sustainable growing practices. Our first shipments to France and Spain marked the beginning of our global journey.",
+      "certification": "Certification & Expansion",
+      "certificationText": "We achieved organic certification and GlobalG.A.P. status, validating our commitment to environmentally friendly practices. We expanded our orchards to 200 hectares and diversified our avocado varieties to include Hass, Fuerte, and Bacon.",
+      "innovation": "Innovation & Global Reach",
+      "innovationText": "We invested in state-of-the-art packing and cold chain technology, allowing us to extend our reach to markets in Asia and the Middle East. Our commitment to innovation led to improved water conservation techniques that reduced our water usage by 60%."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To deliver exceptional quality Moroccan avocados while honoring sustainable practices, supporting local communities, and preserving our natural resources."
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": "Uncompromising Quality",
+      "qualityText": "We never compromise on quality, ensuring every avocado that leaves our farm meets our exacting standards.",
+      "sustainability": "Environmental Stewardship",
+      "sustainabilityText": "We are committed to environmental stewardship, implementing water conservation, soil health, and biodiversity protection practices.",
+      "integrity": "Business Integrity",
+      "integrityText": "We build long-term relationships based on trust, transparency, and consistent delivery on our promises.",
+      "community": "Community Support",
+      "communityText": "We invest in our local communities, providing fair wages, healthcare support, and educational opportunities."
+    },
+    "team": {
+      "title": "Our Leadership",
+      "description": "Our experienced team combines traditional agricultural wisdom with modern expertise to produce the finest avocados Morocco has to offer.",
+      "ceo": "Founder & CEO",
+      "ceoDescription": "With over 25 years of agricultural experience, Hassan combines traditional farming wisdom with innovative practices.",
+      "operations": "Head of Export Operations",
+      "operationsDescription": "Laila ensures our avocados reach global markets in perfect condition while managing our logistics network.",
+      "agricultural": "Agricultural Director",
+      "agriculturalDescription": "Omar leads our sustainable farming initiatives, specializing in water conservation and soil management."
+    },
+    "cta": {
+      "title": "Ready to Partner with Morocco's Premier Avocado Producer?",
+      "description": "Join our network of global partners and bring the authentic taste of Moroccan avocados to your customers."
+    }
+  },
+  "products": {
+    "title": "Our Premium Avocados",
+    "intro": "We specialize in growing and exporting the finest Moroccan avocados, carefully cultivated in our orchards and delivered to markets worldwide.",
+    "varieties": {
+      "title": "Avocado Varieties",
+      "hass": {
+        "name": "Hass Avocado",
+        "description": "Our flagship variety, known for its rich, creamy texture and nutty flavor. Perfect for guacamole and direct consumption.",
+        "season": "Main Season: October to May",
+        "sizes": "Sizes: 12, 14, 16, 18, 20, 22, 24"
+      },
+      "fuerte": {
+        "name": "Fuerte Avocado",
+        "description": "Smooth, green skin with pale green flesh. Slightly lighter flavor than Hass with a higher oil content.",
+        "season": "Main Season: November to March",
+        "sizes": "Sizes: 14, 16, 18, 20, 22"
+      },
+      "bacon": {
+        "name": "Bacon Avocado",
+        "description": "Thin, dark green skin with light-colored flesh. Milder flavor and lower oil content than Hass.",
+        "season": "Main Season: October to January",
+        "sizes": "Sizes: 16, 18, 20, 22"
+      }
+    },
+    "specifications": {
+      "title": "Export Specifications",
+      "packaging": "Packaging Options",
+      "cartons": "4kg and 10kg cartons",
+      "bulk": "Bulk packaging available for distributors",
+      "certifications": "Certifications",
+      "organic": "Organic Certified",
+      "globalGap": "GlobalG.A.P. Certified",
+      "brc": "BRC Food Safety Certified"
+    },
+    "sizes": {
+      "description": "Size refers to the number of avocados that fit in a standard 4kg carton"
+    },
+    "export": {
+      "title": "Export Specifications",
+      "packaging": {
+        "title": "Packaging Options",
+        "standard": {
+          "title": "Standard Cartons",
+          "description": "4kg and 10kg export-grade cartons with proper ventilation and cushioning"
+        },
+        "bulk": {
+          "title": "Bulk Packaging",
+          "description": "Custom palletized solutions for large-scale distributors and wholesalers"
+        },
+        "retail": {
+          "title": "Retail Ready",
+          "description": "Consumer packaging options including nets, trays, and branded materials"
+        },
+        "custom": {
+          "title": "Custom Branding",
+          "description": "Private label options for retailers and distributors with custom specifications"
+        }
+      },
+      "certifications": {
+        "title": "Certifications",
+        "organic": {
+          "title": "Organic",
+          "description": "USDA & EU Certified"
+        },
+        "globalGap": {
+          "title": "GlobalG.A.P",
+          "description": "GGN: 12345678"
+        },
+        "brc": {
+          "title": "BRC Food",
+          "description": "Grade A Certified"
+        },
+        "iso": {
+          "title": "ISO 22000",
+          "description": "Food Safety"
+        },
+        "note": "Our certifications ensure that our avocados meet and exceed international quality and safety standards. Certification documentation is provided with every shipment and available upon request."
+      }
+    },
+    "shipping": {
+      "title": "Shipping & Logistics",
+      "intro": "We handle every aspect of the export process, ensuring your avocados arrive in perfect condition regardless of destination.",
+      "coldChain": {
+        "title": "Cold Chain Management",
+        "description": "Our advanced cold chain ensures avocados remain at optimal temperature from harvest to destination."
+      },
+      "documentation": {
+        "title": "Documentation",
+        "description": "We handle all export documentation including phytosanitary certificates and shipping manifests."
+      },
+      "quality": {
+        "title": "Quality Control",
+        "description": "Multiple quality checkpoints throughout the supply chain ensure only the best avocados are shipped."
+      },
+      "logistics": {
+        "title": "Logistics Partners",
+        "description": "Our trusted logistics partners ensure reliable delivery to any global destination."
+      }
+    },
+    "seasonal": {
+      "title": "Seasonal Availability",
+      "peak": "Peak Availability",
+      "limited": "Limited or No Availability"
+    },
+    "cta": {
+      "title": "Ready to Order Premium Moroccan Avocados?",
+      "description": "Contact us today to discuss your specific requirements and receive a customized quote."
+    }
+  },
+  "sustainability": {
+    "title": "Our Commitment to Sustainability",
+    "intro": "Sustainability isn't just a practice at DomainesMajd — it's our promise to the environment, our communities, and future generations.",
+    "waterManagement": {
+      "title": "Water Management",
+      "content": "Our drip irrigation systems reduce water usage by 60% compared to traditional methods, while collecting rainwater helps us minimize our environmental footprint."
+    },
+    "soilHealth": {
+      "title": "Soil Health",
+      "content": "We utilize organic compost and natural fertilizers to maintain soil vitality without harmful chemicals, promoting biodiversity and long-term productivity."
+    },
+    "biodiversity": {
+      "title": "Biodiversity Preservation",
+      "content": "Our orchards integrate native plants and trees, creating natural habitats for beneficial insects and birds that help with natural pest control."
+    },
+    "socialResponsibility": {
+      "title": "Social Responsibility",
+      "content": "We provide fair wages, healthcare, and education support for our workers and their families, investing in the communities that help us grow."
+    },
+    "goals": {
+      "title": "Our Sustainability Goals",
+      "intro": "We're committed to ambitious environmental and social goals that drive our operations towards a more sustainable future.",
+      "waterNeutral": {
+        "title": "Water Neutral by 2025",
+        "content": "Implementing advanced irrigation systems and water recycling to achieve water neutrality in our operations."
+      },
+      "carbonNegative": {
+        "title": "Carbon Negative by 2030",
+        "content": "Investing in renewable energy and carbon capture technologies to exceed carbon neutrality."
+      },
+      "zeroWaste": {
+        "title": "Zero Waste Operations",
+        "content": "Implementing comprehensive recycling and composting programs to eliminate waste from our facilities."
+      },
+      "community": {
+        "title": "Community Development",
+        "content": "Expanding our educational and healthcare initiatives to support more local families."
+      }
+    },
+    "certifications": {
+      "title": "Our Certifications",
+      "intro": "Our commitment to sustainability is validated by internationally recognized certifications.",
+      "organic": {
+        "title": "Organic Certified",
+        "content": "USDA and EU organic certification for sustainable farming practices"
+      },
+      "globalGap": {
+        "title": "GlobalG.A.P",
+        "content": "Meeting international standards for safe and sustainable agriculture"
+      },
+      "rainforest": {
+        "title": "Rainforest Alliance",
+        "content": "Certified for biodiversity conservation and worker welfare"
+      },
+      "fairTrade": {
+        "title": "Fair Trade",
+        "content": "Ensuring fair compensation and community development"
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We're here to answer your inquiries",
+    "info": {
+      "address": "Address",
+      "addressLine1": "Route de Marrakech, Km 15",
+      "addressLine2": "Agadir, Morocco",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "form": {
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "interest": "I'm interested in",
+      "wholesale": "Wholesale",
+      "distribution": "Distribution",
+      "partnership": "Partnership",
+      "other": "Other",
+      "submit": "Send Message",
+      "success": "Your message has been sent. We'll get back to you soon!",
+      "error": "There was an error sending your message. Please try again."
+    },
+    "map": {
+      "title": "Find Us",
+      "placeholder": "Interactive map will load here"
+    },
+    "hours": {
+      "title": "Opening Hours",
+      "office": {
+        "title": "Office Hours",
+        "weekdays": "8:30 AM - 5:30 PM",
+        "saturday": "9:00 AM - 1:00 PM"
+      },
+      "farm": {
+        "title": "Farm Visit Hours",
+        "weekdays": "10:00 AM - 3:00 PM",
+        "saturday": "10:00 AM - 12:00 PM"
+      },
+      "weekdays": "Monday - Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "closed": "Closed",
+      "note": "Note",
+      "appointment": "By Appointment Only"
+    },
+    "chat": {
+      "description": "Need a quick response? Our team is available for chat during office hours."
+    }
+  },
+  "cta": {
+    "quote": "Request a Quote",
+    "catalog": "Download Catalog",
+    "chat": "Chat with Us",
+    "ready": "Ready to Experience Premium Moroccan Avocados?",
+    "join": "Join our global network of satisfied partners and bring the rich taste of Moroccan avocados to your customers."
+  },
+  "footer": {
+    "description": "DomainesMajd is Morocco's premier producer and exporter of high-quality avocados, committed to sustainable farming and exceptional product quality.",
+    "links": "Quick Links",
+    "certifications": "Certifications",
+    "copyright": "© 2025 DomainesMajd. All rights reserved."
+  }
+}

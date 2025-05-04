@@ -1,0 +1,294 @@
+{
+  "siteTitle": "AvoCasa - Avocats Premium du Maroc",
+  "languages": {
+    "english": "Anglais",
+    "french": "Français",
+    "spanish": "Espagnol",
+    "select": "Sélectionner la langue",
+    "toggle": "Changer de langue"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "products": "Produits",
+    "sustainability": "Durabilité",
+    "contact": "Contact"
+  },
+  "theme": {
+    "light": "Mode Clair",
+    "dark": "Mode Sombre"
+  },
+  "hero": {
+    "title": "Avocats Premium du Maroc",
+    "subtitle": "Cultivés Durablement, Aimés Mondialement",
+    "cta": "Demander un Devis"
+  },
+  "about": {
+    "title": "À Propos d'AvoCasa",
+    "subtitle": "Premier Producteur d'Avocats du Maroc",
+    "intro": "Fondée en 2010, AvoCasa allie la sagesse agricole traditionnelle marocaine aux pratiques durables modernes pour produire les meilleurs avocats de la région.",
+    "description": "Située dans la fertile région du Souss-Massa, nos vergers bénéficient du climat unique du Maroc et de son sol riche, produisant des avocats à la saveur et à la texture exceptionnelles, très demandés sur les marchés européens et mondiaux.",
+    "history": {
+      "title": "Notre Histoire",
+      "content": "En commençant avec seulement 50 hectares dans les contreforts fertiles de l'Atlas, nous sommes devenus le principal exportateur d'avocats du Maroc, desservant les marchés premium du monde entier.",
+      "foundation": "Fondation",
+      "foundationText": "AvoCasa a été fondée avec la vision de produire des avocats premium tout en respectant les pratiques agricoles traditionnelles marocaines et en mettant en œuvre des méthodes d'agriculture durable. Débutant avec seulement 50 hectares dans les contreforts de l'Atlas.",
+      "exports": "Premières Exportations",
+      "exportsText": "Après avoir établi une production de qualité constante, nous avons commencé à exporter vers les marchés européens, acquérant rapidement une réputation pour nos avocats exceptionnels alliant qualité et pratiques durables. Nos premières expéditions vers la France et l'Espagne ont marqué le début de notre voyage mondial.",
+      "certification": "Certification & Expansion",
+      "certificationText": "Nous avons obtenu la certification biologique et le statut GlobalG.A.P., validant notre engagement envers des pratiques respectueuses de l'environnement. Nous avons étendu nos vergers à 200 hectares et diversifié nos variétés d'avocats pour inclure Hass, Fuerte et Bacon.",
+      "innovation": "Innovation & Portée Mondiale",
+      "innovationText": "Nous avons investi dans des technologies de pointe pour l'emballage et la chaîne du froid, nous permettant d'étendre notre portée aux marchés d'Asie et du Moyen-Orient. Notre engagement envers l'innovation a conduit à des techniques améliorées de conservation de l'eau qui ont réduit notre consommation d'eau de 60%."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "content": "Fournir des avocats marocains d'une qualité exceptionnelle tout en respectant les pratiques durables, en soutenant les communautés locales et en préservant nos ressources naturelles."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "quality": "Qualité Sans Compromis",
+      "qualityText": "Nous ne faisons jamais de compromis sur la qualité, garantissant que chaque avocat quittant notre ferme répond à nos normes exigeantes.",
+      "sustainability": "Gestion Environnementale",
+      "sustainabilityText": "Nous nous engageons dans la gestion environnementale, mettant en œuvre des pratiques de conservation de l'eau, de santé des sols et de protection de la biodiversité.",
+      "integrity": "Intégrité Commerciale",
+      "integrityText": "Nous construisons des relations à long terme basées sur la confiance, la transparence et la réalisation constante de nos promesses.",
+      "community": "Soutien Communautaire",
+      "communityText": "Nous investissons dans nos communautés locales, offrant des salaires équitables, un soutien aux soins de santé et des opportunités éducatives."
+    },
+    "team": {
+      "title": "Notre Direction",
+      "description": "Notre équipe expérimentée combine la sagesse agricole traditionnelle avec l'expertise moderne pour produire les meilleurs avocats du Maroc.",
+      "ceo": "Fondateur & PDG",
+      "ceoDescription": "Avec plus de 25 ans d'expérience agricole, Hassan combine la sagesse agricole traditionnelle avec des pratiques innovantes.",
+      "operations": "Directrice des Opérations d'Exportation",
+      "operationsDescription": "Laila s'assure que nos avocats atteignent les marchés mondiaux en parfait état tout en gérant notre réseau logistique.",
+      "agricultural": "Directeur Agricole",
+      "agriculturalDescription": "Omar dirige nos initiatives d'agriculture durable, se spécialisant dans la conservation de l'eau et la gestion des sols."
+    },
+    "cta": {
+      "title": "Prêt à Devenir Partenaire du Premier Producteur d'Avocats du Maroc ?",
+      "description": "Rejoignez notre réseau de partenaires mondiaux et apportez le goût authentique des avocats marocains à vos clients."
+    }
+  },
+  "products": {
+    "title": "Nos Avocats Premium",
+    "intro": "Nous nous spécialisons dans la culture et l'exportation des meilleurs avocats marocains, soigneusement cultivés dans nos vergers et livrés sur les marchés du monde entier.",
+    "varieties": {
+      "title": "Variétés d'Avocats",
+      "hass": {
+        "name": "Avocat Hass",
+        "description": "Notre variété phare, connue pour sa texture riche et crémeuse et sa saveur de noix. Parfait pour le guacamole et la consommation directe.",
+        "season": "Saison Principale: Octobre à Mai",
+        "sizes": "Tailles: 12, 14, 16, 18, 20, 22, 24"
+      },
+      "fuerte": {
+        "name": "Avocat Fuerte",
+        "description": "Peau lisse et verte avec chair vert pâle. Saveur légèrement plus légère que le Hass avec une teneur en huile plus élevée.",
+        "season": "Saison Principale: Novembre à Mars",
+        "sizes": "Tailles: 14, 16, 18, 20, 22"
+      },
+      "bacon": {
+        "name": "Avocat Bacon",
+        "description": "Peau fine et vert foncé avec chair de couleur claire. Saveur plus douce et teneur en huile inférieure au Hass.",
+        "season": "Saison Principale: Octobre à Janvier",
+        "sizes": "Tailles: 16, 18, 20, 22"
+      }
+    },
+    "export": {
+      "title": "Spécifications d'Exportation",
+      "packaging": {
+        "title": "Options d'Emballage",
+        "standard": {
+          "title": "Cartons Standard",
+          "description": "Cartons d'exportation de 4kg et 10kg avec ventilation et protection appropriées"
+        },
+        "bulk": {
+          "title": "Emballage en Vrac",
+          "description": "Solutions palettisées personnalisées pour les distributeurs et grossistes"
+        },
+        "retail": {
+          "title": "Prêt pour la Vente",
+          "description": "Options d'emballage pour la vente au détail incluant filets, barquettes et matériaux de marque"
+        },
+        "custom": {
+          "title": "Marquage Personnalisé",
+          "description": "Options de marque privée pour les détaillants et distributeurs avec spécifications personnalisées"
+        }
+      },
+      "certifications": {
+        "title": "Certifications",
+        "organic": {
+          "title": "Biologique",
+          "description": "Certifié USDA & UE"
+        },
+        "globalGap": {
+          "title": "GlobalG.A.P",
+          "description": "GGN: 12345678"
+        },
+        "brc": {
+          "title": "BRC Food",
+          "description": "Certifié Grade A"
+        },
+        "iso": {
+          "title": "ISO 22000",
+          "description": "Sécurité Alimentaire"
+        },
+        "note": "Nos certifications garantissent que nos avocats répondent et dépassent les normes internationales de qualité et de sécurité. La documentation de certification est fournie avec chaque expédition et disponible sur demande."
+      }
+    },
+    "shipping": {
+      "title": "Expédition & Logistique",
+      "intro": "Nous gérons tous les aspects du processus d'exportation, garantissant que vos avocats arrivent en parfait état quelle que soit la destination.",
+      "coldChain": {
+        "title": "Gestion de la Chaîne du Froid",
+        "description": "Notre chaîne du froid avancée garantit que les avocats restent à température optimale de la récolte à la destination."
+      },
+      "documentation": {
+        "title": "Documentation",
+        "description": "Nous gérons toute la documentation d'exportation, y compris les certificats phytosanitaires et les manifestes d'expédition."
+      },
+      "quality": {
+        "title": "Contrôle Qualité",
+        "description": "De multiples points de contrôle qualité tout au long de la chaîne d'approvisionnement garantissent que seuls les meilleurs avocats sont expédiés."
+      },
+      "logistics": {
+        "title": "Partenaires Logistiques",
+        "description": "Nos partenaires logistiques de confiance assurent une livraison fiable vers toute destination mondiale."
+      }
+    },
+    "seasonal": {
+      "title": "Disponibilité Saisonnière",
+      "peak": "Disponibilité Maximale",
+      "limited": "Disponibilité Limitée ou Nulle"
+    },
+    "cta": {
+      "title": "Prêt à Commander des Avocats Premium du Maroc ?",
+      "description": "Contactez-nous aujourd'hui pour discuter de vos besoins spécifiques et recevoir un devis personnalisé."
+    }
+  },
+  "sustainability": {
+    "title": "Notre Engagement envers la Durabilité",
+    "intro": "La durabilité n'est pas qu'une pratique chez AvoCasa — c'est notre promesse envers l'environnement, nos communautés et les générations futures.",
+    "waterManagement": {
+      "title": "Gestion de l'Eau",
+      "content": "Nos systèmes d'irrigation goutte à goutte réduisent l'utilisation d'eau de 60% par rapport aux méthodes traditionnelles, tandis que la collecte des eaux de pluie nous aide à minimiser notre empreinte environnementale."
+    },
+    "soilHealth": {
+      "title": "Santé des Sols",
+      "content": "Nous utilisons du compost organique et des engrais naturels pour maintenir la vitalité du sol sans produits chimiques nocifs, favorisant la biodiversité et la productivité à long terme."
+    },
+    "biodiversity": {
+      "title": "Préservation de la Biodiversité",
+      "content": "Nos vergers intègrent des plantes et des arbres indigènes, créant des habitats naturels pour les insectes bénéfiques et les oiseaux qui aident au contrôle naturel des parasites."
+    },
+    "socialResponsibility": {
+      "title": "Responsabilité Sociale",
+      "content": "Nous offrons des salaires équitables, des soins de santé et un soutien éducatif à nos travailleurs et leurs familles, investissant dans les communautés qui nous aident à grandir."
+    },
+    "goals": {
+      "title": "Nos Objectifs de Durabilité",
+      "intro": "Nous nous engageons à atteindre des objectifs environnementaux et sociaux ambitieux qui orientent nos opérations vers un avenir plus durable.",
+      "waterNeutral": {
+        "title": "Neutralité en Eau d'ici 2025",
+        "content": "Mise en œuvre de systèmes d'irrigation avancés et de recyclage de l'eau pour atteindre la neutralité en eau dans nos opérations."
+      },
+      "carbonNegative": {
+        "title": "Négatif en Carbone d'ici 2030",
+        "content": "Investissement dans les énergies renouvelables et les technologies de capture du carbone pour dépasser la neutralité carbone."
+      },
+      "zeroWaste": {
+        "title": "Opérations Zéro Déchet",
+        "content": "Mise en place de programmes complets de recyclage et de compostage pour éliminer les déchets de nos installations."
+      },
+      "community": {
+        "title": "Développement Communautaire",
+        "content": "Expansion de nos initiatives éducatives et de santé pour soutenir plus de familles locales."
+      }
+    },
+    "certifications": {
+      "title": "Nos Certifications",
+      "intro": "Notre engagement envers la durabilité est validé par des certifications internationalement reconnues.",
+      "organic": {
+        "title": "Certifié Biologique",
+        "content": "Certification biologique USDA et UE pour des pratiques agricoles durables"
+      },
+      "globalGap": {
+        "title": "GlobalG.A.P",
+        "content": "Respect des normes internationales pour une agriculture sûre et durable"
+      },
+      "rainforest": {
+        "title": "Rainforest Alliance",
+        "content": "Certifié pour la conservation de la biodiversité et le bien-être des travailleurs"
+      },
+      "fairTrade": {
+        "title": "Commerce Équitable",
+        "content": "Garantir une rémunération équitable et le développement communautaire"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Nous sommes là pour répondre à vos demandes",
+    "info": {
+      "address": "Adresse",
+      "addressLine1": "Route de Marrakech, Km 15",
+      "addressLine2": "Agadir, Maroc",
+      "phone": "Téléphone",
+      "email": "Email"
+    },
+    "form": {
+      "name": "Nom",
+      "company": "Entreprise",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Message",
+      "interest": "Je suis intéressé par",
+      "wholesale": "Vente en Gros",
+      "distribution": "Distribution",
+      "partnership": "Partenariat",
+      "other": "Autre",
+      "submit": "Envoyer Message",
+      "success": "Votre message a été envoyé. Nous vous répondrons bientôt!",
+      "error": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer."
+    },
+    "map": {
+      "title": "Nous Trouver",
+      "placeholder": "La carte interactive sera chargée ici"
+    },
+    "hours": {
+      "title": "Heures d'Ouverture",
+      "office": {
+        "title": "Heures de Bureau",
+        "weekdays": "8h30 - 17h30",
+        "saturday": "9h00 - 13h00"
+      },
+      "farm": {
+        "title": "Heures de Visite de la Ferme",
+        "weekdays": "10h00 - 15h00",
+        "saturday": "10h00 - 12h00"
+      },
+      "weekdays": "Lundi - Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche",
+      "closed": "Fermé",
+      "note": "Note",
+      "appointment": "Sur Rendez-vous Uniquement"
+    },
+    "chat": {
+      "description": "Besoin d'une réponse rapide ? Notre équipe est disponible pour le chat pendant les heures de bureau."
+    }
+  },
+  "cta": {
+    "quote": "Demander un Devis",
+    "catalog": "Télécharger Catalogue",
+    "chat": "Discuter avec Nous",
+    "ready": "Prêt à Découvrir nos Avocats Premium du Maroc ?",
+    "join": "Rejoignez notre réseau mondial de partenaires satisfaits et apportez le goût authentique des avocats marocains à vos clients."
+  },
+  "footer": {
+    "description": "AvoCasa est le premier producteur et exportateur marocain d'avocats de haute qualité, engagé dans une agriculture durable et une qualité de produit exceptionnelle.",
+    "links": "Liens Rapides",
+    "certifications": "Certifications",
+    "copyright": "© 2025 AvoCasa. Tous droits réservés."
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "siteTitle": "AvoCasa - Aguacates Premium de Marruecos",
+  "languages": {
+    "english": "Inglés",
+    "french": "Francés",
+    "spanish": "Español",
+    "select": "Seleccionar idioma",
+    "toggle": "Cambiar idioma"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "products": "Productos",
+    "sustainability": "Sostenibilidad",
+    "contact": "Contacto"
+  },
+  "theme": {
+    "light": "Modo Claro",
+    "dark": "Modo Oscuro"
+  },
+  "hero": {
+    "title": "Aguacates Premium de Marruecos",
+    "subtitle": "Cultivados Sosteniblemente, Amados Globalmente",
+    "cta": "Solicitar Cotización"
+  },
+  "about": {
+    "title": "Sobre AvoCasa",
+    "subtitle": "Principal Productor de Aguacates de Marruecos",
+    "intro": "Fundada en 2010, AvoCasa combina la sabiduría agrícola tradicional marroquí con prácticas sostenibles modernas para producir los mejores aguacates de la región.",
+    "description": "Ubicada en la fértil región de Souss-Massa, nuestros huertos se benefician del clima único de Marruecos y su rico suelo, produciendo aguacates con un sabor y textura excepcionales que tienen una gran demanda en los mercados europeos y globales.",
+    "history": {
+      "title": "Nuestra Historia",
+      "content": "Comenzando con solo 50 hectáreas en las fértiles estribaciones del Atlas, nos hemos convertido en el principal exportador de aguacates de Marruecos, abasteciendo a mercados premium en todo el mundo.",
+      "foundation": "Fundación",
+      "foundationText": "AvoCasa fue fundada con la visión de producir aguacates premium mientras respetamos las prácticas agrícolas tradicionales marroquíes e implementamos métodos de agricultura sostenible. Comenzando con solo 50 hectáreas en las estribaciones del Atlas.",
+      "exports": "Primeras Exportaciones",
+      "exportsText": "Después de establecer una producción de calidad consistente, comenzamos a exportar a mercados europeos, ganando rápidamente una reputación por nuestros aguacates excepcionales que combinaban calidad con prácticas sostenibles. Nuestros primeros envíos a Francia y España marcaron el comienzo de nuestro viaje global.",
+      "certification": "Certificación y Expansión",
+      "certificationText": "Logramos la certificación orgánica y el estatus GlobalG.A.P., validando nuestro compromiso con prácticas respetuosas con el medio ambiente. Expandimos nuestros huertos a 200 hectáreas y diversificamos nuestras variedades de aguacate para incluir Hass, Fuerte y Bacon.",
+      "innovation": "Innovación y Alcance Global",
+      "innovationText": "Invertimos en tecnología de empaque y cadena de frío de última generación, permitiéndonos extender nuestro alcance a mercados en Asia y Medio Oriente. Nuestro compromiso con la innovación llevó a técnicas mejoradas de conservación de agua que redujeron nuestro uso de agua en un 60%."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "quality": "Calidad Sin Compromiso",
+      "qualityText": "Nunca comprometemos la calidad, asegurando que cada aguacate que sale de nuestra granja cumple con nuestros exigentes estándares.",
+      "sustainability": "Gestión Ambiental",
+      "sustainabilityText": "Estamos comprometidos con la gestión ambiental, implementando prácticas de conservación de agua, salud del suelo y protección de la biodiversidad.",
+      "integrity": "Integridad Comercial",
+      "integrityText": "Construimos relaciones a largo plazo basadas en la confianza, la transparencia y el cumplimiento constante de nuestras promesas.",
+      "community": "Apoyo Comunitario",
+      "communityText": "Invertimos en nuestras comunidades locales, proporcionando salarios justos, apoyo sanitario y oportunidades educativas."
+    },
+    "team": {
+      "title": "Nuestro Liderazgo",
+      "description": "Nuestro experimentado equipo combina la sabiduría agrícola tradicional con la experiencia moderna para producir los mejores aguacates de Marruecos.",
+      "ceo": "Fundador y CEO",
+      "ceoDescription": "Con más de 25 años de experiencia agrícola, Hassan combina la sabiduría agrícola tradicional con prácticas innovadoras.",
+      "operations": "Directora de Operaciones de Exportación",
+      "operationsDescription": "Laila asegura que nuestros aguacates lleguen a los mercados globales en perfectas condiciones mientras gestiona nuestra red logística.",
+      "agricultural": "Director Agrícola",
+      "agriculturalDescription": "Omar lidera nuestras iniciativas de agricultura sostenible, especializándose en conservación de agua y gestión del suelo."
+    },
+    "cta": {
+      "title": "¿Listo para Asociarte con el Principal Productor de Aguacates de Marruecos?",
+      "description": "Únete a nuestra red de socios globales y lleva el auténtico sabor de los aguacates marroquíes a tus clientes."
+    }
+  },
+  "products": {
+    "title": "Nuestros Aguacates Premium",
+    "intro": "Nos especializamos en cultivar y exportar los mejores aguacates marroquíes, cuidadosamente cultivados en nuestros huertos y entregados a mercados de todo el mundo.",
+    "varieties": {
+      "title": "Variedades de Aguacate",
+      "hass": {
+        "name": "Aguacate Hass",
+        "description": "Nuestra variedad insignia, conocida por su textura rica y cremosa y su sabor a nuez. Perfecto para guacamole y consumo directo.",
+        "season": "Temporada Principal: Octubre a Mayo",
+        "sizes": "Tamaños: 12, 14, 16, 18, 20, 22, 24"
+      },
+      "fuerte": {
+        "name": "Aguacate Fuerte",
+        "description": "Piel lisa y verde con pulpa verde pálido. Sabor ligeramente más ligero que el Hass con un mayor contenido de aceite.",
+        "season": "Temporada Principal: Noviembre a Marzo",
+        "sizes": "Tamaños: 14, 16, 18, 20, 22"
+      },
+      "bacon": {
+        "name": "Aguacate Bacon",
+        "description": "Piel fina y verde oscura con pulpa de color claro. Sabor más suave y menor contenido de aceite que el Hass.",
+        "season": "Temporada Principal: Octubre a Enero",
+        "sizes": "Tamaños: 16, 18, 20, 22"
+      }
+    },
+    "specifications": {
+      "title": "Especificaciones de Exportación",
+      "packaging": "Opciones de Embalaje",
+      "cartons": "Cajas de 4kg y 10kg",
+      "bulk": "Embalaje a granel disponible para distribuidores",
+      "certifications": "Certificaciones",
+      "organic": "Certificado Orgánico",
+      "globalGap": "Certificado GlobalG.A.P.",
+      "brc": "Certificado BRC Food Safety"
+    },
+    "sizes": {
+      "description": "El tamaño se refiere al número de aguacates que caben en una caja estándar de 4kg"
+    },
+    "export": {
+      "title": "Especificaciones de Exportación",
+      "packaging": {
+        "title": "Opciones de Embalaje",
+        "standard": {
+          "title": "Cajas Estándar",
+          "description": "Cajas de exportación de 4kg y 10kg con ventilación y protección adecuadas"
+        },
+        "bulk": {
+          "title": "Embalaje a Granel",
+          "description": "Soluciones paletizadas personalizadas para distribuidores y mayoristas"
+        },
+        "retail": {
+          "title": "Listo para Venta",
+          "description": "Opciones de embalaje para venta al por menor incluyendo mallas, bandejas y materiales de marca"
+        },
+        "custom": {
+          "title": "Marca Personalizada",
+          "description": "Opciones de marca privada para minoristas y distribuidores con especificaciones personalizadas"
+        }
+      },
+      "certifications": {
+        "title": "Certificaciones",
+        "organic": {
+          "title": "Orgánico",
+          "description": "Certificado USDA y UE"
+        },
+        "globalGap": {
+          "title": "GlobalG.A.P",
+          "description": "GGN: 12345678"
+        },
+        "brc": {
+          "title": "BRC Food",
+          "description": "Certificado Grado A"
+        },
+        "iso": {
+          "title": "ISO 22000",
+          "description": "Seguridad Alimentaria"
+        },
+        "note": "Nuestras certificaciones aseguran que nuestros aguacates cumplen y superan los estándares internacionales de calidad y seguridad. La documentación de certificación se proporciona con cada envío y está disponible bajo petición."
+      }
+    },
+    "shipping": {
+      "title": "Envío y Logística",
+      "intro": "Gestionamos todos los aspectos del proceso de exportación, asegurando que sus aguacates lleguen en perfecto estado independientemente del destino.",
+      "coldChain": {
+        "title": "Gestión de Cadena de Frío",
+        "description": "Nuestra cadena de frío avanzada asegura que los aguacates permanezcan a temperatura óptima desde la cosecha hasta el destino."
+      },
+      "documentation": {
+        "title": "Documentación",
+        "description": "Gestionamos toda la documentación de exportación, incluyendo certificados fitosanitarios y manifiestos de envío."
+      },
+      "quality": {
+        "title": "Control de Calidad",
+        "description": "Múltiples puntos de control de calidad a lo largo de la cadena de suministro aseguran que solo se envíen los mejores aguacates."
+      },
+      "logistics": {
+        "title": "Socios Logísticos",
+        "description": "Nuestros socios logísticos de confianza aseguran una entrega fiable a cualquier destino global."
+      }
+    },
+    "seasonal": {
+      "title": "Disponibilidad Estacional",
+      "peak": "Disponibilidad Máxima",
+      "limited": "Disponibilidad Limitada o Nula"
+    },
+    "cta": {
+      "title": "¿Listo para Pedir Aguacates Premium de Marruecos?",
+      "description": "Contáctenos hoy para discutir sus requisitos específicos y recibir una cotización personalizada."
+    }
+  },
+  "sustainability": {
+    "title": "Nuestro Compromiso con la Sostenibilidad",
+    "intro": "La sostenibilidad no es solo una práctica en AvoCasa — es nuestra promesa con el medio ambiente, nuestras comunidades y las generaciones futuras.",
+    "waterManagement": {
+      "title": "Gestión del Agua",
+      "content": "Nuestros sistemas de riego por goteo reducen el uso de agua en un 60% en comparación con los métodos tradicionales, mientras que la recolección de agua de lluvia nos ayuda a minimizar nuestra huella ambiental."
+    },
+    "soilHealth": {
+      "title": "Salud del Suelo",
+      "content": "Utilizamos compost orgánico y fertilizantes naturales para mantener la vitalidad del suelo sin productos químicos dañinos, promoviendo la biodiversidad y la productividad a largo plazo."
+    },
+    "biodiversity": {
+      "title": "Preservación de la Biodiversidad",
+      "content": "Nuestros huertos integran plantas y árboles nativos, creando hábitats naturales para insectos beneficiosos y aves que ayudan con el control natural de plagas."
+    },
+    "socialResponsibility": {
+      "title": "Responsabilidad Social",
+      "content": "Proporcionamos salarios justos, atención médica y apoyo educativo para nuestros trabajadores y sus familias, invirtiendo en las comunidades que nos ayudan a crecer."
+    },
+    "goals": {
+      "title": "Nuestros Objetivos de Sostenibilidad",
+      "intro": "Estamos comprometidos con objetivos ambientales y sociales ambiciosos que impulsan nuestras operaciones hacia un futuro más sostenible.",
+      "waterNeutral": {
+        "title": "Neutralidad en Agua para 2025",
+        "content": "Implementación de sistemas avanzados de riego y reciclaje de agua para lograr la neutralidad hídrica en nuestras operaciones."
+      },
+      "carbonNegative": {
+        "title": "Carbono Negativo para 2030",
+        "content": "Inversión en energías renovables y tecnologías de captura de carbono para superar la neutralidad de carbono."
+      },
+      "zeroWaste": {
+        "title": "Operaciones Cero Residuos",
+        "content": "Implementación de programas integrales de reciclaje y compostaje para eliminar los residuos de nuestras instalaciones."
+      },
+      "community": {
+        "title": "Desarrollo Comunitario",
+        "content": "Ampliación de nuestras iniciativas educativas y de salud para apoyar a más familias locales."
+      }
+    },
+    "certifications": {
+      "title": "Nuestras Certificaciones",
+      "intro": "Nuestro compromiso con la sostenibilidad está validado por certificaciones reconocidas internacionalmente.",
+      "organic": {
+        "title": "Certificado Orgánico",
+        "content": "Certificación orgánica USDA y UE para prácticas agrícolas sostenibles"
+      },
+      "globalGap": {
+        "title": "GlobalG.A.P",
+        "content": "Cumplimiento de estándares internacionales para agricultura segura y sostenible"
+      },
+      "rainforest": {
+        "title": "Rainforest Alliance",
+        "content": "Certificado para la conservación de la biodiversidad y el bienestar de los trabajadores"
+      },
+      "fairTrade": {
+        "title": "Comercio Justo",
+        "content": "Asegurando una compensación justa y el desarrollo comunitario"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Estamos aquí para responder a sus consultas",
+    "info": {
+      "address": "Dirección",
+      "addressLine1": "Route de Marrakech, Km 15",
+      "addressLine2": "Agadir, Marruecos",
+      "phone": "Teléfono",
+      "email": "Email"
+    },
+    "form": {
+      "name": "Nombre",
+      "company": "Empresa",
+      "email": "Email",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "interest": "Estoy interesado en",
+      "wholesale": "Venta al por Mayor",
+      "distribution": "Distribución",
+      "partnership": "Asociación",
+      "other": "Otro",
+      "submit": "Enviar Mensaje",
+      "success": "Su mensaje ha sido enviado. ¡Nos pondremos en contacto con usted pronto!",
+      "error": "Hubo un error al enviar su mensaje. Por favor, inténtelo de nuevo."
+    },
+    "map": {
+      "title": "Encuéntranos",
+      "placeholder": "El mapa interactivo se cargará aquí"
+    },
+    "hours": {
+      "title": "Horario de Atención",
+      "office": {
+        "title": "Horario de Oficina",
+        "weekdays": "8:30 - 17:30",
+        "saturday": "9:00 - 13:00"
+      },
+      "farm": {
+        "title": "Horario de Visitas a la Granja",
+        "weekdays": "10:00 - 15:00",
+        "saturday": "10:00 - 12:00"
+      },
+      "weekdays": "Lunes - Viernes",
+      "saturday": "Sábado",
+      "sunday": "Domingo",
+      "closed": "Cerrado",
+      "note": "Nota",
+      "appointment": "Solo con Cita Previa"
+    },
+    "chat": {
+      "description": "¿Necesita una respuesta rápida? Nuestro equipo está disponible para chat durante el horario de oficina."
+    }
+  },
+  "cta": {
+    "quote": "Solicitar Cotización",
+    "catalog": "Descargar Catálogo",
+    "chat": "Chatear con Nosotros",
+    "ready": "¿Listo para Experimentar los Aguacates Premium de Marruecos?",
+    "join": "Únase a nuestra red global de socios satisfechos y lleve el rico sabor de los aguacates marroquíes a sus clientes."
+  },
+  "footer": {
+    "description": "AvoCasa es el principal productor y exportador de aguacates de alta calidad de Marruecos, comprometido con la agricultura sostenible y la calidad excepcional del producto.",
+    "links": "Enlaces Rápidos",
+    "certifications": "Certificaciones",
+    "copyright": "© 2025 AvoCasa. Todos los derechos reservados."
+  }
+}
