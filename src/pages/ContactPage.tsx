@@ -68,9 +68,15 @@ const ContactPage: React.FC = () => {
                     <h3 className="font-medium text-charcoal-800 dark:text-cream-50 mb-1">
                       {t("contact.info.phone")}
                     </h3>
-                    <p className="text-charcoal-600 dark:text-cream-300">
+
+                    <a
+                      href="tel:+212 661 725 581"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-charcoal-600 dark:text-cream-300"
+                    >
                       +212 661 725 581
-                    </p>
+                    </a>
                   </div>
                 </div>
 
@@ -85,9 +91,15 @@ const ContactPage: React.FC = () => {
                     <h3 className="font-medium text-charcoal-800 dark:text-cream-50 mb-1">
                       {t("contact.info.email")}
                     </h3>
-                    <p className="text-charcoal-600 dark:text-cream-300">
+
+                    <a
+                      href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=info@domainesmajd.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-charcoal-600 dark:text-cream-300"
+                    >
                       info@domainesmajd.com
-                    </p>
+                    </a>
                   </div>
                 </div>
               </div>
