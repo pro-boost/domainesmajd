@@ -134,6 +134,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername)
-
-Project Link: [https://github.com/yourusername/domainesmajd](https://github.com/yourusername/domainesmajd)
+Project Link: [https://github.com/zraib/domainesmajd](https://github.com/zraib/domainesmajd)
