@@ -62,10 +62,7 @@ const ContactPage: React.FC = () => {
                       {t('contact.info.phone')}
                     </h3>
                     <p className="text-charcoal-600 dark:text-cream-300">
-                      +212 522 123 456
-                    </p>
-                    <p className="text-charcoal-600 dark:text-cream-300">
-                      +212 661 987 654
+                      +212 661 725 581
                     </p>
                   </div>
                 </div>
@@ -79,10 +76,7 @@ const ContactPage: React.FC = () => {
                       {t('contact.info.email')}
                     </h3>
                     <p className="text-charcoal-600 dark:text-cream-300">
-                      info@avocasa.com
-                    </p>
-                    <p className="text-charcoal-600 dark:text-cream-300">
-                      sales@avocasa.com
+                      info@domainesmajd.com
                     </p>
                   </div>
                 </div>
@@ -100,7 +94,7 @@ const ContactPage: React.FC = () => {
                   {t('contact.chat.description')}
                 </p>
                 <a 
-                  href="https://wa.me/212522123456" 
+                  href="https://wa.me/212661725581" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn btn-outline w-full"
@@ -141,7 +135,7 @@ const ContactPage: React.FC = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="AvoCasa Location"
+              title="DomainesMajd Location"
               className="grayscale hover:grayscale-0 transition-all duration-300 w-full h-full"
             />
           </div>
@@ -216,7 +210,7 @@ const ContactPage: React.FC = () => {
               {t('cta.quote')}
             </button>
             <a 
-              href="https://wa.me/212522123456" 
+              href="https://wa.me/212661725581" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn bg-avocado-700 hover:bg-avocado-800 text-white"
