@@ -11,8 +11,21 @@ import {
   MapPin,
 } from "lucide-react";
 
+// Image imports
+import organicImg from "../../assets/images/organic.png";
+import globalGapImg from "../../assets/images/GLOBALGAP-Logo.png";
+import brcImg from "../../assets/images/BRC certification.png";
+import isoImg from "../../assets/images/iso.png";
+
 const Footer: React.FC = () => {
   const { t } = useTranslation();
+
+  const certifications = [
+    { src: organicImg, alt: "Organic", label: "Organic" },
+    { src: globalGapImg, alt: "GlobalG.A.P.", label: "GlobalG.A.P." },
+    { src: brcImg, alt: "BRC Food", label: "BRC Food" },
+    { src: isoImg, alt: "ISO 22000", label: "ISO 22000" },
+  ];
 
   return (
     <footer className="bg-charcoal-900 text-cream-100 pt-12 pb-6">
@@ -28,42 +41,35 @@ const Footer: React.FC = () => {
             </div>
             <p className="text-cream-300 mb-4">{t("footer.description")}</p>
             <div className="flex gap-4">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cream-400 hover:text-white transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook size={20} />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cream-400 hover:text-white transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram size={20} />
-              </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cream-400 hover:text-white transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin size={20} />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cream-400 hover:text-white transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter size={20} />
-              </a>
+              {[
+                {
+                  Icon: Facebook,
+                  url: "https://facebook.com",
+                  label: "Facebook",
+                },
+                {
+                  Icon: Instagram,
+                  url: "https://instagram.com",
+                  label: "Instagram",
+                },
+                {
+                  Icon: Linkedin,
+                  url: "https://linkedin.com",
+                  label: "LinkedIn",
+                },
+                { Icon: Twitter, url: "https://twitter.com", label: "Twitter" },
+              ].map(({ Icon, url, label }) => (
+                <a
+                  key={label}
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cream-400 hover:text-white transition-colors"
+                  aria-label={label}
+                >
+                  <Icon size={20} />
+                </a>
+              ))}
             </div>
           </div>
 
@@ -73,46 +79,25 @@ const Footer: React.FC = () => {
               {t("footer.links")}
             </h3>
             <ul className="space-y-2">
-              <li>
-                <Link
-                  to="/"
-                  className="text-cream-300 hover:text-white transition-colors"
-                >
-                  {t("navigation.home")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/about"
-                  className="text-cream-300 hover:text-white transition-colors"
-                >
-                  {t("navigation.about")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/products"
-                  className="text-cream-300 hover:text-white transition-colors"
-                >
-                  {t("navigation.products")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/sustainability"
-                  className="text-cream-300 hover:text-white transition-colors"
-                >
-                  {t("navigation.sustainability")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/contact"
-                  className="text-cream-300 hover:text-white transition-colors"
-                >
-                  {t("navigation.contact")}
-                </Link>
-              </li>
+              {[
+                { path: "/", label: t("navigation.home") },
+                { path: "/about", label: t("navigation.about") },
+                { path: "/products", label: t("navigation.products") },
+                {
+                  path: "/sustainability",
+                  label: t("navigation.sustainability"),
+                },
+                { path: "/contact", label: t("navigation.contact") },
+              ].map((link) => (
+                <li key={link.path}>
+                  <Link
+                    to={link.path}
+                    className="text-cream-300 hover:text-white transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -138,9 +123,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex gap-3">
                 <a
-                  href="tel:+212 661 725 581"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="tel:+212661725581"
                   className="flex gap-3 text-cream-300 hover:text-white"
                 >
                   <Phone size={20} className="text-avocado-400 flex-shrink-0" />
@@ -149,9 +132,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex gap-3">
                 <a
-                  href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=info@domainesmajd.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="mailto:info@domainesmajd.com"
                   className="flex gap-3 text-cream-300 hover:text-white"
                 >
                   <Mail size={20} className="text-avocado-400 flex-shrink-0" />
@@ -166,23 +147,22 @@ const Footer: React.FC = () => {
             <h3 className="text-white font-semibold mb-4">
               {t("footer.certifications")}
             </h3>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 rounded-lg p-3 flex items-center justify-center">
-                <span className="text-white text-sm font-medium">Organic</span>
-              </div>
-              <div className="bg-white/10 rounded-lg p-3 flex items-center justify-center">
-                <span className="text-white text-sm font-medium">
-                  GlobalG.A.P.
-                </span>
-              </div>
-              <div className="bg-white/10 rounded-lg p-3 flex items-center justify-center">
-                <span className="text-white text-sm font-medium">BRC Food</span>
-              </div>
-              <div className="bg-white/10 rounded-lg p-3 flex items-center justify-center">
-                <span className="text-white text-sm font-medium">
-                  ISO 22000
-                </span>
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {certifications.map((cert, index) => (
+                <div
+                  key={index}
+                  className="bg-white/10 rounded-lg p-3 flex md:justify-star  justify-center items-center gap-2"
+                >
+                  <img
+                    src={cert.src}
+                    alt={cert.alt}
+                    className="h-8 w-8 object-contain shrink-0"
+                  />
+                  <span className="text-white text-sm font-medium truncate">
+                    {cert.label}
+                  </span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
