@@ -25,6 +25,10 @@
     @apply min-h-screen flex flex-col justify-center;
   }
   
+  .hero-section {
+    @apply relative flex items-center h-60 md:h-[380px] lg:h-[460px];
+  }
+  
   .btn {
     @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-all duration-300 ease-in-out;
   }

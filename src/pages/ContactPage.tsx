@@ -10,7 +10,7 @@ const ContactPage: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 bg-charcoal-900 text-white">
+      <section className="hero-section bg-charcoal-900 text-white">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
