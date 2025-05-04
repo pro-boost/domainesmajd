@@ -48,12 +48,15 @@ const ContactPage: React.FC = () => {
                     <h3 className="font-medium text-charcoal-800 dark:text-cream-50 mb-1">
                       {t("contact.info.address")}
                     </h3>
-                    <p className="text-charcoal-600 dark:text-cream-300">
-                      {t("contact.info.addressLine1")}
-                    </p>
-                    <p className="text-charcoal-600 dark:text-cream-300">
-                      {t("contact.info.addressLine2")}
-                    </p>
+                    <a
+                      href="https://www.google.com/maps?q=33.594060763702345,-7.599928815542162"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-charcoal-600 hover:text-cream-300 dark:text-cream-300 dark:hover:text-white"
+                    >
+                      <p>{t("contact.info.addressLine1")}</p>
+                      <p>{t("contact.info.addressLine2")}</p>
+                    </a>
                   </div>
                 </div>
 
@@ -73,7 +76,7 @@ const ContactPage: React.FC = () => {
                       href="tel:+212 661 725 581"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-charcoal-600 dark:text-cream-300"
+                      className="text-charcoal-600 hover:text-cream-300 dark:text-cream-300 dark:hover:text-white"
                     >
                       +212 661 725 581
                     </a>
@@ -96,7 +99,7 @@ const ContactPage: React.FC = () => {
                       href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=info@domainesmajd.com"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-charcoal-600 dark:text-cream-300"
+                      className="text-charcoal-600 hover:text-cream-300 dark:text-cream-300 dark:hover:text-white"
                     >
                       info@domainesmajd.com
                     </a>
@@ -160,7 +163,8 @@ const ContactPage: React.FC = () => {
             {t("contact.map.title")}
           </h2>
 
-          <div className="bg-white dark:bg-charcoal-800 rounded-lg shadow-lg overflow-hidden h-96">
+          <div className="relative bg-white dark:bg-charcoal-800 rounded-lg shadow-lg overflow-hidden h-96">
+            {/* Map iframe */}
             <iframe
               src="https://www.openstreetmap.org/export/embed.html?bbox=-7.602117484759247%2C33.59206076370235%2C-7.597717484759247%2C33.59606076370235&amp;layer=mapnik&amp;marker=33.594060763702345%2C-7.599928815542162"
               width="100%"
@@ -171,8 +175,20 @@ const ContactPage: React.FC = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="DomainesMajd Location"
-              className="grayscale hover:grayscale-0 transition-all duration-300 w-full h-full"
+              className="w-full h-full grayscale hover:grayscale-0 transition-all duration-300"
             />
+          </div>
+
+          {/* Google Maps Button */}
+          <div className="text-center mt-4">
+            <a
+              href="https://www.google.com/maps?q=33.594060763702345,-7.599928815542162"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-avocado-400 text-white mt-8 py-2 px-6  hover:bg-avocado-500 transition-colors duration-300 btn  "
+            >
+              Google Maps
+            </a>
           </div>
         </div>
       </section>

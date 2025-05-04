@@ -125,12 +125,15 @@ const Footer: React.FC = () => {
               <li className="flex gap-3">
                 <MapPin size={20} className="text-avocado-400 flex-shrink-0" />
                 <div>
-                  <p className="text-cream-300">
-                    {t("contact.info.addressLine1")}
-                  </p>
-                  <p className="text-cream-300">
-                    {t("contact.info.addressLine2")}
-                  </p>
+                  <a
+                    href="https://www.google.com/maps?q=33.594060763702345,-7.599928815542162"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-cream-300 hover:text-white"
+                  >
+                    <p>{t("contact.info.addressLine1")}</p>
+                    <p>{t("contact.info.addressLine2")}</p>
+                  </a>
                 </div>
               </li>
               <li className="flex gap-3">
